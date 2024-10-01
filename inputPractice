@@ -1,0 +1,12 @@
+ingredient1 = (input("What is your first ingredient? "))
+ounces1 = float(input(f"Ounces of {ingredient1}: "))
+ingredient2 = (input("What is your second ingredient? "))
+ounces2 = float(input(f"Ounces of {ingredient2}: "))
+ingredient3 = (input("What is your third ingredient? "))
+ounces3 = float(input(f"Ounces of {ingredient3}: "))
+
+servings = float(input("Number of servings: "))
+
+print(f"Total ounces of {ingredient1}: {ounces1 * servings}")
+print(f"Total ounces of {ingredient2}: {ounces2 * servings}")
+print(f"Total ounces of {ingredient3}: {ounces3 * servings}")
